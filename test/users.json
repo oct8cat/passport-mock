@@ -1,0 +1,4 @@
+[
+    {"id": 1,"is_admin": true},
+    {"id": 2,"is_admin": false}
+]
