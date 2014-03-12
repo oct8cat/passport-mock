@@ -35,7 +35,7 @@
     });
 
     it('should deny anonymous on /admin', function(done) {
-        request.get('/user').expect(403, done);
+        request.get('/admin').expect(403, done);
     });
 
     it('should allow user on /user', function(done) {
