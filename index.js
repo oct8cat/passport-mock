@@ -1,5 +1,3 @@
-(function() {
-    'use strict';
+'use strict';
 
-    module.exports = require('./lib/passportMock');
-})();
+module.exports = require('./lib/mock')
